@@ -16,11 +16,13 @@
     <p>You're not welcome to MY page on the internet.</p>
     <p>If you insist on staying do something useful and solve this math question for me.</p>
 
-    <form>
+    <form id="myForm">
         <div>
             <h4 id="math-problem">4 + 4 - 8 * 10 + 1</h4>
-            <p>Put your answer here or whatever.</p>
-            <input type="text" onfocus="changeMath()" onblur="revertMath()"></input>
+            <label for="inputField">Put you answer here or whatever.</label><br>
+            <input type="text" id="inputField" onfocus="convertNumber()"
+            onblur="revertMath()" onkeyup="convertNumber()"></input>
+            <button type="submit">Submit</button>
         </div>
     </form>
 </body>

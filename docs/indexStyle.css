@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: hotpink;
+    color: lime;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: yellow;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+a {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+button {
+    background-color: fuchsia;
+    color: cyan;
+    border: 10px solid yellow;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 36px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    background-color: magenta;
+    color: lime;
+    border: 5px solid yellow;
+    padding: 10px;
+    font-size: 24px;
+}
