@@ -44,8 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (inputFieldValue == 69) {
             alert("You're funny, I like you");
         } else
-        alert('WRONG!!!! What are you? An Idiot Sandwich!?');
         document.getElementById('myForm').innerHTML =
-        "<img src='assets/gordon-ramsay-what-are-you.gif' alt='gordon gif' height='500px' width='800px'>";
+        "<h1>WRONG!!!!</h1><img src='assets/gordon-ramsay-what-are-you.gif' alt='gordon gif' height='500px' width='800px'>";
     });
 });
